@@ -55,4 +55,9 @@ Serviço de segurança da AWS que protege aplicativos web contra explorações c
 
 Simplifica a gestão de permissões, padroniza o acesso, facilita a escalabilidade, reforça a segurança e permite um controle mais eficiente do acesso aos recursos na nuvem AWS.
 
+**Custo da Infraestrutura Apresentada**
+![image](https://github.com/Saraiana/CloudAWS/assets/102194276/b827b798-3cfd-445d-a9b1-674ff1d45f88)
+https://calculator.aws/#/estimate?id=11b421ff1920ead09dbea53c351588021f0ecdb3
+
+
 A solução proposta apresenta uma arquitetura com maior segurança, alta disponibilidade, estratégia de recuperação de desastres e componentes independentes para cada carga de trabalho.
