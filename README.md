@@ -3,7 +3,6 @@ Trabalho de conclusão do curso re/Start da Escola da Nuvem.
 O objetivo do projeto é melhorar a infraestrutura cloud do cliente, observando o limite de orçamento inicial de $10.000,00, além de $300,00 para atender a gastos extras recorrentes.
 
 Diagrama da infraestrutura do cliente:
-
 ![image](https://github.com/Saraiana/CloudAWS/assets/102194276/2dc7c661-3dec-4887-8855-9a05788fa748)
 
 Diagrama da arquitetura proposta:
@@ -34,7 +33,7 @@ O CloudWatch coleta e visualiza logs, métricas e dados de eventos em tempo real
 
 **Amazon CloudTrail**
 
-Monita e registra atividades da conta por toda infraestrutura da AWS. Registra eventos de gerenciamento nos serviços da AWS por padrão e está disponível sem custo, com 90 dias de histórico de atividades da conta. 
+Monitora e registra atividades da conta por toda infraestrutura da AWS. Registra eventos de gerenciamento nos serviços da AWS por padrão e está disponível sem custo, com 90 dias de histórico de atividades da conta. 
 
 **Elastic Load Balancing**
 
