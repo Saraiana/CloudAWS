@@ -25,11 +25,11 @@ Capacidade de computação escalável sob demanda na nuvem AWS. Foram propostas 
 
 **Amazon RDS for MariaDB**
 
-O RDS é um seerviço que simplifica a gestão do banco de dados na nuvem e é compatível com várias versões do MariaDB Server. A implementação do RDS foi multi-AZ (mais de uma zona de disponibilidade), onde ele cria automaticamente uma instância de banco de dados primária e replica de forma síncrona os dados para uma instância em uma AZ diferente. A configuração do MariaDB foi feita com 8vCPU e 32 GiB de memória.  
+O RDS é um serviço que simplifica a gestão do banco de dados na nuvem e é compatível com várias versões do MariaDB Server. A implementação do RDS foi multi-AZ (mais de uma zona de disponibilidade), onde ele cria automaticamente uma instância de banco de dados primária e replica de forma síncrona os dados para uma instância em uma AZ diferente. A configuração do MariaDB foi feita com 8vCPU e 32 GiB de memória.  
 
 **Amazon CloudWatch**
 
-O CloudWatch coleta e visualiza logs, métricas e dados de eventos em tempo real em painéis automatizados. Na arquitetura proposta, está sendo usado 10 métricas personalizadas com 1 milhão de solicitações de API, 3 painéis personalizados com até 50 métricas e 5 GB de dados em logs, que são oferecidos gratuitamente, mais três painéis de alarmes com 3 métricas de alarme de resolução padrão de 60 segundos. 
+O CloudWatch coleta e visualiza logs, métricas e dados de eventos em tempo real em painéis automatizados. Na arquitetura proposta, estão sendo usadas 10 métricas personalizadas com 1 milhão de solicitações de API, 3 painéis personalizados com até 50 métricas e 5 GB de dados em logs, que são oferecidos gratuitamente, mais três painéis de alarmes com 3 métricas de alarme de resolução padrão de 60 segundos. 
 
 **Amazon CloudTrail**
 
@@ -37,11 +37,11 @@ Monitora e registra atividades da conta por toda infraestrutura da AWS. Registra
 
 **Elastic Load Balancing**
 
-Distribui automaticamente o tráfego de entrada entre vários destinos em uma ou mais zona de disponibilidade. Monitora a integridade dos destinos e roteia o tráfego apenas para os destinos íntegros. Trabalha junto com o Auto Scaling Group.
+Distribui automaticamente o tráfego de entrada entre vários destinos em uma ou mais zonas de disponibilidade. Monitora a integridade dos destinos e roteia o tráfego apenas para os destinos íntegros. Trabalha junto com o Auto Scaling Group.
 
 **Auto Scaling Group**
 
-Realiza o gerenciamento da escalabilidade de forma automática e ajusta as instância para atender a capacidade desejada. Propomos o uso mínimo de 2 instâncias e o máximo de 4, para que o auto scaling ajuste de forma automátima em relação a demanda. 
+Realiza o gerenciamento da escalabilidade de forma automática e ajusta as instância para atender a capacidade desejada. Propomos o uso mínimo de 2 instâncias e o máximo de 4, para que o auto scaling ajuste de forma automátima em relação à demanda. 
 
 **AWS Shild**
 
