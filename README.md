@@ -17,7 +17,7 @@ Permite criar uma rede virtual personalizada na AWS. Foi criada com duas sub-red
 
 **NAT Gateway**
 
-Serviço de tradução de endereços de rede. Foram adicionada duas NAT Gateway, uma em cada sub-rede pública, para que as instâncias das sub-redes privadas possam se conectar a internet. 
+Serviço de tradução de endereços de rede. Foram adicionadas duas NAT Gateway, uma em cada sub-rede pública, para que as instâncias das sub-redes privadas possam se conectar a internet. 
 
 **Amazon EC2**
 
